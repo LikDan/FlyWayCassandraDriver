@@ -18,3 +18,11 @@ download source code change params there and rebuild projects using this command
 ```
  gradle jar
 ```
+
+To use it include this to your .conf file
+```conf
+flyway.user=
+flyway.password=
+flyway.url=jdbc:sqlite://host:port/datacenter
+flyway.driver=likco.flyway.cassandra.driver.CassandraDriver
+```
