@@ -10,8 +10,6 @@ repositories {
 }
 
 dependencies {
-    implementation("com.github.zhicwu:cassandra-jdbc-driver:0.6.4")
-    implementation("org.apache-extras.cassandra-jdbc:cassandra-jdbc:1.2.1")
     implementation("com.datastax.oss:java-driver-core:4.17.0")
     implementation(files("libs/cassandrajdbc2.3.3.jar"))
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
